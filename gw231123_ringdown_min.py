@@ -58,7 +58,9 @@ def main():
     plt.plot(tr*1e3,y1,label="QNM1")
     plt.plot(tr*1e3,y2,label="QNM2")
     plt.xlabel("t - t_peak [ms]"); plt.legend(); plt.title(f"Ringdown fits {det}"); plt.tight_layout(); plt.savefig("gw231123_ringdown_fits.png",dpi=180); plt.show()
-    print("Analyse ringdown GW231123 et spectrogramme — by Paul Barbaste.")
 
 if __name__=="__main__":
     main()
+
+#analyse ringdown GW231123 et spectrogramme — by Paul Barbaste.
+
